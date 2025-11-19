@@ -1,0 +1,47 @@
+body {
+    background-color: #3e070c;
+    font-family: "Motiva Sans",Arial,Helvetica,sans-serif;
+}
+.achievement-row {
+    margin-bottom: 20px;
+}
+.achievement-pic-holder-left {
+    float: left;
+    width: 100px;
+    height: 100px;
+    padding-right: 10px;
+}
+.achievement-pic-holder-right {
+    float: right;
+    width: 100px;
+    height: 100px;
+    padding-left: 10px;
+}
+.achievement-pic {
+    width: 100px;
+    height: 100px;
+}
+.achievement-pic-locked {
+    width: 100px;
+    height: 100px;
+    filter: grayscale(100%);
+}
+.achievement-text {
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 1px solid black;
+    color: #FFFFFF;
+    min-height: 96px;
+    padding: 1px;
+    overflow: hidden;
+}
+h3{ 
+    font-size: 30px;
+    margin: 20px 20px 10px 20px;
+}
+h5{
+    font-size: 15px;
+    font-weight: normal;
+    font-style: italic;
+    color:#c2c2c2;
+    margin: 10px 20px 5px 20px;
+}
