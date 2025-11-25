@@ -45,3 +45,38 @@ h5{
     color:#c2c2c2;
     margin: 10px 20px 5px 20px;
 }
+
+@keyframes rainbowAnimation{
+    0% {
+        color: #F00;
+    }
+    16.7% {
+        color: #FF0;
+    }
+    33.3% {
+        color: #0F0;
+    }
+    50% {
+        color: #0FF;
+    }
+    66.7% {
+        color: #00F;
+    }
+    84.4% {
+        color: #F0F;
+    }
+    100% {
+        color: #F00;
+    }
+}
+
+.rainbow {
+    animation-name: rainbowAnimation;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.rainbow:hover{
+    animation-duration: 2s;
+}
