@@ -80,3 +80,35 @@ h5{
 .rainbow:hover{
     animation-duration: 2s;
 }
+
+@keyframes fireAnimation {
+0% { color: #FF8800; } 
+3% { color: #FF6D00; } 
+7% { color: #FF7700; } 
+12% { color: #FFB300; } 
+16% { color: #FFA500; } 
+21% { color: #FF7200; } 
+28% { color: #FFA400; } 
+33% { color: #FF6100; } 
+36% { color: #FFA400; } 
+41% { color: #FFA500; } 
+49% { color: #FF7500; } 
+53% { color: #FF7700; } 
+55% { color: #FF5700; } 
+60% { color: #FF2B00; } 
+66% { color: #FF3800; } 
+73% { color: #FF6B00; } 
+76% { color: #FF3400; } 
+83% { color: #FF7700; } 
+89% { color: #FF3C00; } 
+92% { color: #FF2400; } 
+95% { color: #FF5C00; } 
+100% { color: #FF8800; } 
+}
+
+.fire {
+    animation-name: fireAnimation;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function:cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
